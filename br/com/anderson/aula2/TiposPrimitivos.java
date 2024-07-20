@@ -59,6 +59,7 @@ public class TiposPrimitivos {
         float nota3 = 6;
 
         System.out.println("A média das tres notas é: " + (nota1 +nota2 +nota3)/3);
+        System.out.println("");
 
 
     }
