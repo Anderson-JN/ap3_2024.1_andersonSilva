@@ -2,21 +2,35 @@ package gabarito_aula_3;
 
 public class Aluno {
 
-    String nomeDoAluno = "SemNome";
+    String nome;
     double nota1;
     double nota2;
     double nota3;
-    
-    public String getNomeDoAlunoMaiusculo() {
-        return nomeDoAluno.toUpperCase();
-    }
-    
-    public String getNomeDoAlunoMinusculo() {
-        return nomeDoAluno.toLowerCase();
+
+    public String getNomeMaisculo() {
+        return nome.toUpperCase();
     }
 
-    public void setNomeDoAluno(String nomeDoAluno) {
-        this.nomeDoAluno = nomeDoAluno;
+    public String getNomeMinusculo() {
+        return nome.toLowerCase();
+    }
+    
+    public double getMedia() {
+        return(nota1+nota2+nota3)/3;
+    }
+
+    public boolean aprovadoMedia(){
+        if (getMedia() >= 7)
+            return true;
+        return false;
+    }
+
+    public String getNome(){
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
     public double getNota1() {
@@ -42,12 +56,9 @@ public class Aluno {
     public void setNota3(double nota3) {
         this.nota3 = nota3;
     }
-    
+
     @Override
     public String toString() {
-        return "Aluno [nomeDoAluno=" + nomeDoAluno + ", nota1=" + nota1 + ", nota2=" + nota2 + ", nota3=" + nota3 + "]";
-    }
-
-    
-
+        return "Aluno [nome=" + nome + ", nota1=" + nota1 + ", nota2=" + nota2 + ", nota3=" + nota3 + "]";
+  }
 }
