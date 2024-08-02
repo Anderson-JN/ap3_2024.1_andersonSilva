@@ -1,3 +1,5 @@
+package gabarito_aula2.br.com.anderson;
+
 public class tiposPrimitivos {
     public static void main(String[] args) {
         // Crie um programa que declare variáveis de todos os tipos primitivos em Java 

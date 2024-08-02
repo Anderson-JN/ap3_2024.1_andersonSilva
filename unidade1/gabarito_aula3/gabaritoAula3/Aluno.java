@@ -1,4 +1,4 @@
-package gabarito_aula_3;
+package gabarito_aula3.gabaritoAula3;
 
 public class Aluno {
 
