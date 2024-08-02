@@ -1,14 +1,7 @@
 package br.com.anderson.aula2;
 
-public class TiposPrimitivos {
+public class mediaNotaAluno {
     public static void main(String[] args) {
-
-// Crie um programa que descubra o valor máximo e mínimo que um int pode armazenar em Java. 
-        // Utilize as constantes Integer.MAX_VALUE e Integer.MIN_VALUE para isso. 
-        // Faça com que ocorra um estouro nesse tamanho máximo.
-
-        System.out.println("Valor maximo do int: " +Integer.MAX_VALUE);
-        System.out.println("Valor minimo do int:" +Integer.MIN_VALUE);
 
         // Crie um programa em Java que calcule a média de três notas utilizando programação estruturada. 
         // Não use classes e objetos para isso, apenas métodos estáticos.

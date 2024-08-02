@@ -1,4 +1,4 @@
-public class TiposPrimitivos {
+public class tiposPrimitivos {
     public static void main(String[] args) {
         // Crie um programa que declare variáveis de todos os tipos primitivos em Java 
         // (byte, short, int, long, float, double, boolean, char) 
