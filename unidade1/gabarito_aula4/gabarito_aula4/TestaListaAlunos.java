@@ -6,13 +6,19 @@ public class TestaListaAlunos {
     
     public static void main(String[] args) {
         LinkedList <Aluno> osAlunos = new LinkedList<Aluno>();
-        for (int i = 0; i <= 89765; i++) {
+        for (int i = 0; i <= 89764; i++) {
             Aluno umAluno = new Aluno();
-            umAluno.setNome("alunoNumero = " + i);
+            umAluno.setNome("AlunoNumero = " + i);
             osAlunos.add(umAluno);
             System.out.println(umAluno);
             
         }
+        
+        for (int i = 0; i < osAlunos.size(); i++) {
+            System.out.println(osAlunos.get(i));      
+            System.out.println(osAlunos);      
+        }
+        
     }    
 }
 
