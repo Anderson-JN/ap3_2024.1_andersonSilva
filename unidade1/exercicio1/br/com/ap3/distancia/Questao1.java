@@ -1,3 +1,4 @@
+/* */
 package br.com.ap3.distancia;
 
 import java.util.Scanner;
