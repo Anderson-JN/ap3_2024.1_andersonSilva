@@ -1,6 +1,7 @@
 package br.com.ap3.distancia;
 import java.util.Scanner;
-
+//Xico - corrigindo: faltou o seu codigo secreto.
+//Xico - corrigindo: faltou o javadoc.
 public class Questao3 {
 
     public static void main(String[] args) {
