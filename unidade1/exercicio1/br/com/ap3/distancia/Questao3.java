@@ -1,5 +1,4 @@
 package br.com.ap3.distancia;
-
 import java.util.Scanner;
 
 public class Questao3 {
@@ -18,7 +17,6 @@ public class Questao3 {
         System.out.println("Para produzir "+ quantidadeLatao +  " quilos de latão, você precisa de: ");
         System.out.println(quantidadeCobre + " quilos de cobre. ");
         System.out.println(quantidadeZinco + " quilos de zinco. ");
-
         scanner.close();
     }
 }
